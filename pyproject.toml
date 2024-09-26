@@ -29,6 +29,7 @@ packages = ["src/phidata_youtube_summarizer"]
 name = "phidata-youtube-summarizer"
 version = "0.1.0"
 description = "Add your description here"
+authors = ["phidata", "teonsen"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
