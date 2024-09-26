@@ -24,3 +24,15 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/phidata_youtube_summarizer"]
+
+[tool.poetry]
+name = "phidata-youtube-summarizer"
+version = "0.1.0"
+description = "Add your description here"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+phidata "^2.4.37"
+groq = "^0.11.0"
+streamlit = "^1.38.0"
+youtube-transcript-api = "^0.6.2"
